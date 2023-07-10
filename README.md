@@ -39,7 +39,7 @@ SELECT
     ROUND(MAX(CASE WHEN t.months = 10 THEN t.total ELSE 0 END ),2) AS Oct ,
     ROUND(MAX(CASE WHEN t.months = 11 THEN t.total ELSE 0 END ),2) AS Nov ,
     ROUND(MAX(CASE WHEN t.months = 12 THEN t.total ELSE 0 END ),2) AS Decc ,
-    ROUND(AVG(total),2) as total
+    ROUND(AVG(total),2) as totalAverage
 FROM
 	(SELECT MONTH(a.orderDate) AS months , a.country , SUM(b.quantityOrdered*b.priceEach) AS total
 	FROM
@@ -52,7 +52,7 @@ FROM
 	GROUP BY months, a.country ) 
 AS t
 GROUP BY t.country
-ORDER BY total DESC
+ORDER BY totalAverage DESC
 LIMIT 5
 ;
 
@@ -61,7 +61,7 @@ LIMIT 5
 
 **Answer (Query result)**
 
-| country | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Decc | total |
+| country | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Decc | totalAverage |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|-------|
 | USA | 210757.96 | 217707.85 | 238210.3 | 185634.17 | 284867.21 | 159182.38 | 188268.51 | 362668.24 | 129973.45 | 361965.15 | 667780.22 | 266264.61 | 272773.34 |
 | Spain | 122199.36 | 120166.58 | 80394.19 | 29257.31 | 197333.34 | 83316.39 | 0.0 | 20009.53 | 44939.85 | 44214.56 | 188227.89 | 169330.09 | 99944.46 |
