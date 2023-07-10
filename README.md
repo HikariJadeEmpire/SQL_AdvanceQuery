@@ -5,7 +5,18 @@ Analyzing the database of a retailer specializing in scale models of classic car
 
 ![MySQL-Sample-Database-Schema](https://github.com/HikariJadeEmpire/SQL_classicmodels/assets/118663358/d179ce3f-0434-4cd3-8f50-2f3e14dff0a7)
 
+<br>
+
 link : [:bookmark: classicmodels](https://www.mysqltutorial.org/mysql-sample-database.aspx)
+
+<br>
+
+**Questions :**
+- [Q1 : Which are the top 5 countries with the highest average monthly revenue production? Please sort the countries accordingly for each month.](https://github.com/HikariJadeEmpire/SQL_classicmodels#q1--which-are-the-top-5-countries-with-the-highest-average-monthly-revenue-production-please-sort-the-countries-accordingly-for-each-month)
+- [Q2 : Which product performs the best each month, disregarding the year?](https://github.com/HikariJadeEmpire/SQL_classicmodels#q2--which-product-performs-the-best-each-month-disregarding-the-year)
+- [Q3 : Plot the total revenue for each month and year.](https://github.com/HikariJadeEmpire/SQL_classicmodels#q3--plot-the-total-revenue-for-each-month-and-year)
+
+<br>
 
 # <h3>Q1 : Which are the top 5 countries with the highest average monthly revenue production? Please sort the countries accordingly for each month.</h3>
 <br>
@@ -204,5 +215,7 @@ GROUP BY months
 | 12.0 | 276723.25 | 428838.17 | 0.0 | 705561.42 |
 
 <br>
+
 #
-Go to top : [Top]()
+
+Go to top : [Top](https://github.com/HikariJadeEmpire/SQL_classicmodels#advanced-sql-query)
