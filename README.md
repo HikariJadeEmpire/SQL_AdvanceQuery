@@ -12,9 +12,9 @@ link : [:bookmark: classicmodels](https://www.mysqltutorial.org/mysql-sample-dat
 <br>
 
 **Questions :**
-- [Q1 : Which are the top 5 countries with the highest average monthly revenue production? Please sort the countries accordingly for each month.](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q1--which-are-the-top-5-countries-with-the-highest-average-monthly-revenue-production-please-sort-the-countries-accordingly-for-each-month)
-- [Q2 : Which product performs the best each month, disregarding the year?](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q2--which-product-performs-the-best-each-month-disregarding-the-year)
-- [Q3 : Plot the total revenue for each month and year.](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q3--plot-the-total-revenue-for-each-month-and-year)
+- Q1 : [Which are the top 5 countries with the highest average monthly revenue production? Please sort the countries accordingly for each month.](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q1--which-are-the-top-5-countries-with-the-highest-average-monthly-revenue-production-please-sort-the-countries-accordingly-for-each-month)
+- Q2 : [Which product performs the best each month, disregarding the year?](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q2--which-product-performs-the-best-each-month-disregarding-the-year)
+- Q3 : [Plot the total revenue for each month and year.](https://github.com/HikariJadeEmpire/SQL_AdvanceQuery#q3--plot-the-total-revenue-for-each-month-and-year)
 
 <br>
 
