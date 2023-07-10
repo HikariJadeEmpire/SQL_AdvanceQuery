@@ -5,6 +5,8 @@ Analyzing the database of a retailer specializing in scale models of classic car
 
 ![MySQL-Sample-Database-Schema](https://github.com/HikariJadeEmpire/SQL_classicmodels/assets/118663358/d179ce3f-0434-4cd3-8f50-2f3e14dff0a7)
 
+link : [:bookmark: classicmodels](https://www.mysqltutorial.org/mysql-sample-database.aspx)
+
 # <h3>Q1 : Which country has the highest average monthly revenue production?</h3>
 
 ```ruby
