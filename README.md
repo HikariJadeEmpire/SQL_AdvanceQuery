@@ -7,7 +7,7 @@ Analyzing the database of a retailer specializing in scale models of classic car
 
 link : [:bookmark: classicmodels](https://www.mysqltutorial.org/mysql-sample-database.aspx)
 
-# <h3>Q1 : Which country has the highest average monthly revenue production?</h3>
+# <h3>Q1 : Which country consistently achieves the highest average monthly revenue? Sort the countries for each month accordingly.</h3>
 
 ```ruby
 
@@ -48,7 +48,8 @@ order by total DESC ;
 
 ![sql01](https://github.com/HikariJadeEmpire/SQL_classicmodels/assets/118663358/e61c3659-d215-44e5-9fd6-a6733358c932)
 
-# <h3>Q2 : </h3>
+# <h3>Q2 : 
+Which product performs the best each month?</h3>
 
 ```ruby
 
